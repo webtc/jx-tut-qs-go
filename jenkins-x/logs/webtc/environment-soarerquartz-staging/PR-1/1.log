@@ -1,14 +1,9 @@
 Step: build-step-credential-initializer:
 
-{"level":"warn","ts":1552200590.9266233,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1552200590.9273767,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Unable to retrieve container logs for docker://e71ad46a6201dc56aa2c7265067fc3687dbd7b0c16a8e46f88fba4d8030b1449
 Step: build-step-git-source-0:
 
-{"level":"warn","ts":1552200592.7643569,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1552200593.0739238,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/webtc/environment-soarerquartz-staging.git\" @ \"fcc6a0426a0cc007dc2ce6815ac46dba8283010a\" in path \"/workspace\""}
+Unable to retrieve container logs for docker://e6ecaf7b0fe9b91698acb4bec91c887fa291d785ea7d8462dcc7f20891ebe311
 Step: build-step-build:
 
-Adding missing Helm repo: jenkins-x http://chartmuseum.jenkins-x.io
-Successfully added Helm repository jenkins-x.
-Adding missing Helm repo: releases http://jenkins-x-chartmuseum:8080
-Successfully added Helm repository releases.
+Unable to retrieve container logs for docker://8af7e88c4ba4584f5d3fed59a892b7434c013d475bfafd4c77ba11914166f105
